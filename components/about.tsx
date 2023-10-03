@@ -19,30 +19,26 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        <span className="font-bold">I am a B. tech candidate pursuing Computer Science and Engineering at Vellore Institute of 
+        Technology , Bhopal, India.</span> I'm a self-taught web developer with experience in designing new features from ideation 
+        to production. I take into consideration the user experience while writing reusable and efficient code. I passionately 
+        combine good design, technology, and innovation in all my projects, which I like to accompany from the first idea to release.
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+        I am very creative and innovative individual
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        who loves to explore new dimensions of technology. A quick learner who is ready to put the skills and 
+        knowledge to good use for the development of an organization.
+        </p> 
+
+        <p > <span className="font-bold"> After graduating</span>   with a degree in<span className="font-bold"> Computer Science,</span> I want to continue my passion 
+        in technology,My core skills are Java, Python, React, Next.js, Node.js, and MongoDB. I am also familiar 
+        with TypeScript and C++, I am looking forward to work with great dedication for the growth of the 
+        organization and self as a professional in software development.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">When I'm not coding</span>, I play games with my friends, 
+        watch some show on Netflix, or if the weather's good, go for a walk!
       </p>
     </motion.section>
   );

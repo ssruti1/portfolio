@@ -1,10 +1,11 @@
 import React from "react";
+import { GrCertificate } from "react-icons/gr";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import dalleImg from "@/public/dalle.png";
+import rmtdevImg from "@/public/projectportfolio.png";
+import wordanalyticsImg from "@/public/ethereumtransfer.png";
 
 export const links = [
   {
@@ -34,74 +35,71 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "CSE",
+    location: "VIT Bhopal, Bhopal, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Currently pursuing Computer Science and Engineering, senior year at VIT Bhopal, learnt a lot of languages and technologies, participated in a lot of co-curricular events and am still having a great experience learning",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020 - present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Machine Learning Intern",
+    location: "TeachNook India, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Developed a handwriting recognition model to extract image information into written text. Used GAN and dynamic convolution layers to reconstructing the image using the intermediate layer vectors and multi-dimensional feature tensors and classified the reconstructed images into the correct classes",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 (November-December)",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Developer",
+    location: "Bhopal, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I also excel at Java and Python as well as learning C++ for system software positions granting my profile extra flexibility. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "AI Image Generation integrated MERN stack",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this project for 4 months. Uses techologies such as DALL-E and cloudinary",
+    tags: ["React", "Cloudinary", "MongoDB", "Tailwind", "OpenAI", "MERN"],
+    imageUrl: dalleImg,
   },
   {
-    title: "rmtDev",
+    title: "Project Portfolio Manager",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Full stack portfolio management website. I was the back-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "GraphQL"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Skrypto Hub",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A crypto-currency Full Stack application with Ethereum wallet-to-wallet transfer route and other features such as subscriptions, giphy, etc",
+    tags: ["React", "Firebase", "Solidity", "Tailwind", "Goerli"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "Python",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
+  "ReactJS",
+  "NextJS",
+  "NodeJS",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Firebase",
+  "MySql",
+  "Git",
+  "GitHub",
 ] as const;
